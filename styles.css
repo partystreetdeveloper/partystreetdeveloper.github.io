@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.install-button {
+    display: block;
+    background-color: #4A90E2; /* Light blue color */
+    color: white;
+    border: none;
+    padding: 45px 90px; /* 3 times larger */
+    font-size: 48px; /* 3 times larger */
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 30px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px; /* Padding between buttons */
+}
+
+.install-button:hover {
+    background-color: #357ABD; /* Slightly darker blue for hover effect */
+}
+
+.install-button:last-child {
+    margin-bottom: 0; /* Remove bottom margin for the last button */
+}
